@@ -46,4 +46,8 @@ public class User {
         return mutes.stream().anyMatch(mute -> !mute.isRevoked());
     }
 
+    public Ban createBan(String reason, UserInfo issuedBy) {
+        Ban ban = new Ban("")
+    }
+
 }
